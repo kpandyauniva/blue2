@@ -1,5 +1,5 @@
 #!/bin/bash
-while [ ! -f /opt/unicloud/config/myaccount.json ]
+while [ ! -f /opt/unicloud/config/ServiceAccount.json ]
 do
         echo 'waiting...' 
         sleep 30
