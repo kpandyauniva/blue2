@@ -1,7 +1,8 @@
 #!/bin/bash
-while [ ! -f /opt/unicloud/config/ServiceAccount.json ]
+while [ ! -f ServiceAccount.json ]
 do
         echo 'waiting...' 
         sleep 30
 done
-echo "done" > /root/message.txt
+cp ServiceAccount.json /opt/unicloud/config
+echo "done.." >> /root/message.txt
