@@ -5,4 +5,5 @@ do
         sleep 30
 done
 cp ServiceAccount.json /opt/unicloud/config
-echo "done.." >> /root/message.txt
+echo "done.." > /root/message.txt
+
