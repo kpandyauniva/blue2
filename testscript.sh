@@ -2,7 +2,7 @@
 
 while [ ! -f /tmp/ServerAccount.json ]
 do
-        echo "waiting.."
+        echo "waiting.." >> /tmp/update.txt
         sleep 60
 done
 
